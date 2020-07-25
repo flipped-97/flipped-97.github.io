@@ -1685,14 +1685,12 @@ body::before {
   align-items: center;
   border-left: 1px solid #999;
 }
-.site-state-item:first-child,
-.site-state-item:last-child {
-  line-height: 1;
-  padding: 0;
-}
+
 .site-state-item:first-child {
   border-left: none;
   border-right: 1px solid #999;
+  line-height: 1;
+  padding: 0;
 }
 .site-state-item:last-child {
   border-left: 1px solid #999;
